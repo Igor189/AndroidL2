@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getMusicAlbums(): List<MusicAlbum> {
-        // Здесь вы можете добавить свои альбомы или загрузить данные из JSON
         return listOf(
             MusicAlbum("Album 1", "Artist 1", 2020),
             MusicAlbum("Album 2", "Artist 2", 2018),

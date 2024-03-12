@@ -28,7 +28,6 @@ class MusicAlbumAdapter(private val albums: List<MusicAlbum>) :
         holder.artistTextView.text = album.artist
         holder.yearTextView.text = album.year.toString()
 
-        // Обработка нажатия на элемент списка
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             Toast.makeText(context, "Альбом: ${album.title} clicked!", Toast.LENGTH_SHORT).show()
